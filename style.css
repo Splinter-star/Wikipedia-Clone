@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101418;
+}
+.header {
+    color: #E4f1f6;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.image {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.image img {
+    width: 200px;
+}
+.container {
+    position: relative;
+    width:  700px;
+    height: 350px;
+    margin: 20px auto;
+}
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text div {
+    position: absolute;
+    width: 180px;
+    text-align: center;
+}
+.text div:nth-child(1) {
+    position: absolute;
+    top: 10;
+    left: 150px;
+}
+.text div:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.text div:nth-child(3) {
+    position: absolute;
+    top: 130px;
+    right: 430px;
+}
+.text div:nth-child(4) {
+    position: absolute;
+    top: 200px;
+    right: 450px;
+}
+.text div:nth-child(5) {
+    position: absolute;
+    top: 270px;
+    right: 380px;
+}
+.text div:nth-child(6) {
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+.text div:nth-child(7) {
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+.text div:nth-child(8) {
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+.text div:nth-child(9) {
+    position: absolute;
+    top: 190px;
+    left: 480px;
+}
+.text div:nth-child(10) {
+    position: absolute;
+    top: 270px;
+    left: 460px;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h3 {
+    color: #8AA3E4;
+    font-size: 16px;
+}
+.text p {
+    color: #E4f1f6;
+    font-size: 13px;
+}
+.bottom {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 30px;
+}
+select {
+    background-color: transparent;
+    color: #E4f1f6;
+}
+select option {
+    padding: 40px;
+    border: 1px solid #E4f1f6;
+}
+.bottom button {
+    background-color: #202122;
+    color: #849fe3;
+    padding: 10px 40px;
+    border: 1px solid #E4f1f6;
+}
+.bottom hr {
+    width: 100px;
+    border: none;
+    border-top: 1px solid #E4f1f6;
+}
+form {
+    display: flex;
+    width: 35%;
+    height: 45px;    
+    border: 0.1px solid #E4f1f6;
+    margin-left:430px;
+    margin-top: 15px;
+}
+input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #E4f1f6;
+    padding: 10px;
+    margin-top: 100px;
+}
+.bottom1 button {
+    width: 20px;
+    background-color: #47629B;
+    border: none;
+    font-size: 25px;
+}
